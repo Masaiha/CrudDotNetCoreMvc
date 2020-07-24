@@ -25,7 +25,7 @@
       "MASAIO.App/1.0.0": {
         "dependencies": {
           "MASAIO.Data": "1.0.0",
-          "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "3.0.0",
+          "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "3.0.3",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.6",
           "Microsoft.AspNetCore.Identity.UI": "3.0.0",
           "Microsoft.EntityFrameworkCore.Tools": "3.0.1",
@@ -325,14 +325,14 @@
           "lib/netcoreapp2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore/3.0.0": {
+      "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore/3.0.3": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Relational": "3.1.6"
         },
         "runtime": {
           "lib/netcoreapp3.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll": {
-            "assemblyVersion": "3.0.0.0",
-            "fileVersion": "3.0.19.46502"
+            "assemblyVersion": "3.0.3.0",
+            "fileVersion": "3.0.320.7303"
           }
         },
         "compile": {
@@ -2989,12 +2989,12 @@
       "path": "microsoft.aspnetcore.cryptography.keyderivation/3.1.6",
       "hashPath": "microsoft.aspnetcore.cryptography.keyderivation.3.1.6.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore/3.0.0": {
+    "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore/3.0.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-WSJY7UL2iGFNa8DcbNP6X7dqpVyX/UadvXwhOCyehcLVroYDPK08GPuYwIe0djljdB/W01Jtmsbxxj2Ad2Py9Q==",
-      "path": "microsoft.aspnetcore.diagnostics.entityframeworkcore/3.0.0",
-      "hashPath": "microsoft.aspnetcore.diagnostics.entityframeworkcore.3.0.0.nupkg.sha512"
+      "sha512": "sha512-Job5k4bbR/bwB5KBY3EwFVghGrzLBynboKpxlcDAosxuOOKMMPkK0rZHjBSEJeAb+uU4rHVoMgSEtwZcDC35pA==",
+      "path": "microsoft.aspnetcore.diagnostics.entityframeworkcore/3.0.3",
+      "hashPath": "microsoft.aspnetcore.diagnostics.entityframeworkcore.3.0.3.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Identity.EntityFrameworkCore/3.1.6": {
       "type": "package",

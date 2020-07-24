@@ -1,7 +1,5 @@
 C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.App\obj\Debug\netcoreapp3.0\MASAIO.App.AssemblyInfoInputs.cache
 C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.App\obj\Debug\netcoreapp3.0\MASAIO.App.AssemblyInfo.cs
-C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.App\obj\Debug\netcoreapp3.0\MASAIO.App.csproj.CoreCompileInputs.cache
-C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.App\obj\Debug\netcoreapp3.0\MASAIO.App.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.App\obj\Debug\netcoreapp3.0\MASAIO.App.RazorAssemblyInfo.cache
 C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.App\obj\Debug\netcoreapp3.0\MASAIO.App.RazorAssemblyInfo.cs
 C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.App\bin\Debug\netcoreapp3.0\appsettings.Development.json
@@ -89,4 +87,3 @@ C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.App\obj\Deb
 C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.App\obj\Debug\netcoreapp3.0\MASAIO.App.dll
 C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.App\obj\Debug\netcoreapp3.0\MASAIO.App.pdb
 C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.App\obj\Debug\netcoreapp3.0\MASAIO.App.genruntimeconfig.cache
-C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.App\obj\Debug\netcoreapp3.0\MASAIO.App.MvcApplicationPartsAssemblyInfo.cs
