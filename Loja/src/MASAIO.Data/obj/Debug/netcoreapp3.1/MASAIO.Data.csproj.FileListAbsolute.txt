@@ -3,3 +3,10 @@ C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.Data\bin\De
 C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.Data\obj\Debug\netcoreapp3.1\MASAIO.Data.csprojAssemblyReference.cache
 C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.Data\obj\Debug\netcoreapp3.1\MASAIO.Data.AssemblyInfoInputs.cache
 C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.Data\obj\Debug\netcoreapp3.1\MASAIO.Data.AssemblyInfo.cs
+C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.Data\obj\Debug\netcoreapp3.1\MASAIO.Data.csproj.CoreCompileInputs.cache
+C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.Data\bin\Debug\netcoreapp3.1\MASAIO.Data.pdb
+C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.Data\bin\Debug\netcoreapp3.1\MASAIO.Business.dll
+C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.Data\bin\Debug\netcoreapp3.1\MASAIO.Business.pdb
+C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.Data\obj\Debug\netcoreapp3.1\MASAIO.Data.csproj.CopyComplete
+C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.Data\obj\Debug\netcoreapp3.1\MASAIO.Data.dll
+C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.Data\obj\Debug\netcoreapp3.1\MASAIO.Data.pdb

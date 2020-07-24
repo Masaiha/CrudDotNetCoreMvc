@@ -1,0 +1,8 @@
+C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.Business\bin\Debug\netcoreapp3.0\MASAIO.Business.deps.json
+C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.Business\bin\Debug\netcoreapp3.0\MASAIO.Business.dll
+C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.Business\bin\Debug\netcoreapp3.0\MASAIO.Business.pdb
+C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.Business\obj\Debug\netcoreapp3.0\MASAIO.Business.AssemblyInfoInputs.cache
+C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.Business\obj\Debug\netcoreapp3.0\MASAIO.Business.AssemblyInfo.cs
+C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.Business\obj\Debug\netcoreapp3.0\MASAIO.Business.csproj.CoreCompileInputs.cache
+C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.Business\obj\Debug\netcoreapp3.0\MASAIO.Business.dll
+C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.Business\obj\Debug\netcoreapp3.0\MASAIO.Business.pdb
