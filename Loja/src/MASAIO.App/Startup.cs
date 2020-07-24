@@ -1,3 +1,4 @@
+using AutoMapper;
 using MASAIO.App.Configurations;
 using MASAIO.App.Data;
 using MASAIO.Data.Context;
@@ -27,6 +28,7 @@ namespace MASAIO.App
             services.AddControllersWithViews();
             services.AddRazorPages();
             services.ResolveDependencies();
+            services.AddAutoMapperConfig();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

@@ -6,3 +6,4 @@ C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.Business\ob
 C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.Business\obj\Debug\netcoreapp3.0\MASAIO.Business.dll
 C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.Business\obj\Debug\netcoreapp3.0\MASAIO.Business.pdb
 C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.Business\obj\Debug\netcoreapp3.0\MASAIO.Business.csprojAssemblyReference.cache
+C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.Business\obj\Debug\netcoreapp3.0\MASAIO.Business.csproj.CoreCompileInputs.cache
