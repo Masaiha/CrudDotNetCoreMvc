@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "8MgORR6tRLyinEi5FElHVLPimBQFRfOhgaw+ZI1wZ8i729bgVKueWPgizV8x7cO0R2gFveEQjevPIbut2GHHkQ==",
+  "dgSpecHash": "eFR0fTkagIsbBfl7Hd2VkvXurZHEx/NoLlqSDujrHMBZMmhvBIS6dI2XnJ92cLYyLzOZ/GAg230GDRU4EfCF2w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Masanori\\Documents\\GitHub\\CrudDotNetCoreMvc\\Loja\\src\\MASAIO.App\\MASAIO.App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Masanori\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.6\\microsoft.aspnetcore.cryptography.internal.3.1.6.nupkg.sha512",
     "C:\\Users\\Masanori\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.6\\microsoft.aspnetcore.cryptography.keyderivation.3.1.6.nupkg.sha512",
-    "C:\\Users\\Masanori\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\3.0.0\\microsoft.aspnetcore.diagnostics.entityframeworkcore.3.0.0.nupkg.sha512",
+    "C:\\Users\\Masanori\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\3.0.3\\microsoft.aspnetcore.diagnostics.entityframeworkcore.3.0.3.nupkg.sha512",
     "C:\\Users\\Masanori\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\3.1.6\\microsoft.aspnetcore.identity.entityframeworkcore.3.1.6.nupkg.sha512",
     "C:\\Users\\Masanori\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\3.0.0\\microsoft.aspnetcore.identity.ui.3.0.0.nupkg.sha512",
     "C:\\Users\\Masanori\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

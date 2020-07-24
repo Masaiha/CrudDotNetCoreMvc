@@ -89,3 +89,4 @@ C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.App\obj\Deb
 C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.App\obj\Debug\netcoreapp3.0\MASAIO.App.dll
 C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.App\obj\Debug\netcoreapp3.0\MASAIO.App.pdb
 C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.App\obj\Debug\netcoreapp3.0\MASAIO.App.genruntimeconfig.cache
+C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.App\obj\Debug\netcoreapp3.0\MASAIO.App.MvcApplicationPartsAssemblyInfo.cs
