@@ -1,0 +1,5 @@
+C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.Data\bin\Debug\netcoreapp3.1\MASAIO.Data.deps.json
+C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.Data\bin\Debug\netcoreapp3.1\MASAIO.Data.dll
+C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.Data\obj\Debug\netcoreapp3.1\MASAIO.Data.csprojAssemblyReference.cache
+C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.Data\obj\Debug\netcoreapp3.1\MASAIO.Data.AssemblyInfoInputs.cache
+C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.Data\obj\Debug\netcoreapp3.1\MASAIO.Data.AssemblyInfo.cs
