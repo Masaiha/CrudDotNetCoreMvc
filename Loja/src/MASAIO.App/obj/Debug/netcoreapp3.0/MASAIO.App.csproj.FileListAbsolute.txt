@@ -185,3 +185,13 @@ C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.App\obj\Deb
 C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.App\obj\Debug\netcoreapp3.0\MASAIO.App.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.App\obj\Debug\netcoreapp3.0\MASAIO.App.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.App\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.Debug.dll
+C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.App\obj\Debug\netcoreapp3.0\Razor\Views\Fornecedores\Create.cshtml.g.cs
+C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.App\obj\Debug\netcoreapp3.0\Razor\Views\Fornecedores\Delete.cshtml.g.cs
+C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.App\obj\Debug\netcoreapp3.0\Razor\Views\Fornecedores\Details.cshtml.g.cs
+C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.App\obj\Debug\netcoreapp3.0\Razor\Views\Fornecedores\Edit.cshtml.g.cs
+C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.App\obj\Debug\netcoreapp3.0\Razor\Views\Fornecedores\Index.cshtml.g.cs
+C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.App\obj\Debug\netcoreapp3.0\Razor\Views\Produtos\Create.cshtml.g.cs
+C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.App\obj\Debug\netcoreapp3.0\Razor\Views\Produtos\Delete.cshtml.g.cs
+C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.App\obj\Debug\netcoreapp3.0\Razor\Views\Produtos\Details.cshtml.g.cs
+C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.App\obj\Debug\netcoreapp3.0\Razor\Views\Produtos\Edit.cshtml.g.cs
+C:\Users\Masanori\Documents\GitHub\CrudDotNetCoreMvc\Loja\src\MASAIO.App\obj\Debug\netcoreapp3.0\Razor\Views\Produtos\Index.cshtml.g.cs
