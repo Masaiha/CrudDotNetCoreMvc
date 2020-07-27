@@ -29,18 +29,18 @@
                 <span asp-validation-for="Descricao" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label>Imagem Atual</label>
                 <img src="~/imagens/@Model.Imagem" alt="@Model.Imagem" style="width:70px; height:100px;" />
             </div>
             <div>
                 <label asp-for="ImagemUpload" class="control-label"></label>
 
                 <div class="custom-file">
-                    <input type="file" class="custom-file-input" id="ImagemUpload" asp-for="ImagemUpload">
-                    <label data-browse="Procurar" style="width: 400px" class="custom-file-label" for="ImagemUpload"></label>
+                    <input type="file" class="custom-file-input" id="ImagemUpload" asp-for="ImagemUpload" style="display:none">
+                    <label data-browse="Alterar Imagem" style="width: 145px" class="custom-file-label" for="ImagemUpload"></label>
                     <label style="display: none" id="img_nome"></label>
                 </div>
-
+                <br />
+                <br />
                 <span asp-validation-for="ImagemUpload" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -67,6 +67,7 @@
 
     <script>
         $("#ImagemUpload").change(function () {
+            $("#img_nome").text("");
             $("#img_nome").text(this.files[0].name);
             $("#img_nome")[0].style.display = 'block';
         })

@@ -84,7 +84,7 @@ namespace MASAIO.App.Controllers
         {
             if (id != produtoViewModel.Id) return NotFound();
 
-            var produtoAtualizacao = _mapper.Map<ProdutoViewModel>(await _produtoRepository.ObterPorId(id));
+            var produtoAtualizacao = _mapper.Map<ProdutoViewModel>(await _produtoRepository.ObterProdutoFornecedor(id));
             produtoViewModel.Fornecedor = produtoAtualizacao.Fornecedor;
             produtoViewModel.Imagem = produtoAtualizacao.Imagem;
 
@@ -92,21 +92,21 @@ namespace MASAIO.App.Controllers
 
             if (produtoViewModel.Imagem != null)
             {
+                await RemoveArquivo(produtoAtualizacao.Imagem);
+                
                 var imgPrefixo = Guid.NewGuid() + "_";
-                if (!await UploadArquivo(produtoViewModel.ImagemUpload, imgPrefixo))
-                {
-                    return View(produtoViewModel);
-                }
-
+                await UploadArquivo(produtoViewModel.ImagemUpload, imgPrefixo);
                 produtoViewModel.Imagem = imgPrefixo + produtoViewModel.ImagemUpload.FileName;
             }
 
+            produtoAtualizacao.Imagem = produtoViewModel.Imagem;
             produtoAtualizacao.Nome = produtoViewModel.Nome;
             produtoAtualizacao.Descricao = produtoViewModel.Descricao;
             produtoAtualizacao.Valor = produtoViewModel.Valor;
             produtoAtualizacao.Ativo = produtoViewModel.Ativo;
 
             await _produtoRepository.Atualizar(_mapper.Map<Produto>(produtoAtualizacao));
+
             return RedirectToAction(nameof(Index));
         }
 
@@ -154,6 +154,19 @@ namespace MASAIO.App.Controllers
             using (var stream = new FileStream(path, FileMode.Create))
             {
                 await arquivo.CopyToAsync(stream);
+            }
+
+            return true;
+        }
+
+        private async Task<bool> RemoveArquivo(string fileName)
+        {
+            var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/imagens", fileName);
+
+            if (System.IO.File.Exists(path))
+            {
+                System.IO.File.Delete(path);
+                return true;
             }
 
             return true;
