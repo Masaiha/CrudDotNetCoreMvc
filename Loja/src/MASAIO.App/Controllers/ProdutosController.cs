@@ -99,7 +99,7 @@ namespace MASAIO.App.Controllers
 
             if (!ModelState.IsValid) return View(produtoViewModel);
 
-            if (produtoViewModel.Imagem != null)
+            if (produtoViewModel.ImagemUpload != null)
             {
                 await RemoveArquivo(produtoAtualizacao.Imagem);
                 
@@ -143,7 +143,6 @@ namespace MASAIO.App.Controllers
             await _produtoService.Remover(id);
 
             if (!OperacaoValida()) return View(produtoViewModel);
-
             TempData["Sucesso"] = "Produto Excluído com sucesso!";
             
             return RedirectToAction(nameof(Index));

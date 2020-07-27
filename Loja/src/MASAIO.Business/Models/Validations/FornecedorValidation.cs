@@ -16,7 +16,7 @@ namespace MASAIO.Business.Models.Validations
             {
                 RuleFor(f => f.Documento.Length)
                     .Equal(CpfValidacao.TamanhoCpf)
-                    .WithMessage("O Campo Documento precisa ter {ComparionValue} caracteres e foi fornecido {PropertyValue}");
+                    .WithMessage("O Campo Documento precisa ter {ComparisonValue} caracteres e foi fornecido {PropertyValue}");
 
                 RuleFor(f => CpfValidacao.Validar(f.Documento))
                     .Equal(true)
@@ -28,7 +28,7 @@ namespace MASAIO.Business.Models.Validations
 
                 RuleFor(f => f.Documento.Length)
                     .Equal(CnpjValidacao.TamanhoCnpj)
-                    .WithMessage("O Campo Documento precisa ter {ComparionValue} caracteres e foi fornecido {PropertyValue}");
+                    .WithMessage("O Campo Documento precisa ter {ComparisonValue} caracteres e foi fornecido {PropertyValue}");
 
                 RuleFor(f => CnpjValidacao.Validar(f.Documento))
                     .Equal(true)
