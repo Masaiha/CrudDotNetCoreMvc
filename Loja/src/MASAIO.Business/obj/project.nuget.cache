@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "BmLmGtC2BOBBQ+Ay4BnCsExWcZtlZXcR6GXHIZsPVUyCDSFEqtyPP1SIpDSNhKebrNaPhZPid6guXIlroLBwnw==",
+  "dgSpecHash": "uM3Fa//ILeSqf8XMQii3RNH9B36NxbnozwkyhsxKR3SZ24V41izGiiOAf+Pf7GAfBT2PWOzpEDfw8ZcCZzgZwg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Masanori\\Documents\\GitHub\\CrudDotNetCoreMvc\\Loja\\src\\MASAIO.Business\\MASAIO.Business.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Masanori\\.nuget\\packages\\fluentvalidation\\8.5.0\\fluentvalidation.8.5.0.nupkg.sha512",
+    "C:\\Users\\Masanori\\.nuget\\packages\\fluentvalidation.aspnetcore\\8.5.0\\fluentvalidation.aspnetcore.8.5.0.nupkg.sha512",
+    "C:\\Users\\Masanori\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\8.5.0\\fluentvalidation.dependencyinjectionextensions.8.5.0.nupkg.sha512",
     "C:\\Users\\Masanori\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Masanori\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
     "C:\\Users\\Masanori\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",

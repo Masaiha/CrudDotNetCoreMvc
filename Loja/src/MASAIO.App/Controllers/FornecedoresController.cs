@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using MASAIO.App.ViewModels;
 using MASAIO.Business.Interfaces;
+using MASAIO.Business.Interfaces.Services;
 using MASAIO.Business.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Routing;
@@ -10,14 +11,19 @@ using System.Threading.Tasks;
 
 namespace MASAIO.App.Controllers
 {
-    public class FornecedoresController : Controller
+    public class FornecedoresController : BaseController
     {
         private readonly IFornecedorRepository _fornecedorRepository;
+        private readonly IFornecedorService _fornecedorService;
         private readonly IMapper _mapper;
 
         public FornecedoresController(IFornecedorRepository fornecedorRepository,
-                                      IMapper mapper){
+                                      IFornecedorService fornecedorService,
+                                      IMapper mapper,
+                                      INotificador notificador) : base(notificador)
+        {
             _fornecedorRepository = fornecedorRepository;
+            _fornecedorService = fornecedorService;
             _mapper = mapper;
         }
 
@@ -51,7 +57,9 @@ namespace MASAIO.App.Controllers
 
             var fornecedor = _mapper.Map<Fornecedor>(fornecedorViewModel);
             
-            await _fornecedorRepository.Adicionar(fornecedor);
+            await _fornecedorService.Adicionar(fornecedor);
+
+            if (!OperacaoValida()) return View(fornecedorViewModel);
 
             return RedirectToAction("Index");
         }
@@ -76,7 +84,9 @@ namespace MASAIO.App.Controllers
             if (ModelState.IsValid) return View(fornecedorViewModel);
 
             var fornecedor = _mapper.Map<Fornecedor>(fornecedorViewModel);
-            await _fornecedorRepository.Atualizar(fornecedor);
+            await _fornecedorService.Atualizar(fornecedor);
+
+            if (!OperacaoValida()) return View(fornecedorViewModel);
 
             return RedirectToAction(nameof(Index));
         }
@@ -100,7 +110,11 @@ namespace MASAIO.App.Controllers
             
             if (fornecedorViewModel == null) return NotFound();
 
-            await _fornecedorRepository.Remover(id);
+            await _fornecedorService.Remover(id);
+
+            TempData["Sucesso"] = "Produto Excluído com sucesso!";
+
+            if (!OperacaoValida()) return View(fornecedorViewModel);
 
             return RedirectToAction(nameof(Index));
         }
