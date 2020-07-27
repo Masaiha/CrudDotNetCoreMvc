@@ -21,7 +21,7 @@ namespace MASAIO.App.ViewModels
         public string Documento { get; set; }
         
         [DisplayName("Tipo")]
-        public TipoFornecedor TipoFornecedor { get; set; }
+        public int TipoFornecedor { get; set; }
 
         [DisplayName("Endereço")]
         public Endereco Endereco { get; set; }
@@ -29,6 +29,6 @@ namespace MASAIO.App.ViewModels
         [DisplayName("Ativo?")]
         public bool Ativo { get; set; }
 
-        public IEnumerable<Produto> Produtos { get; set; }
+        public IEnumerable<ProdutoViewModel> Produtos { get; set; }
     }
 }

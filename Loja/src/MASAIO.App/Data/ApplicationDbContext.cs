@@ -13,5 +13,7 @@ namespace MASAIO.App.Data
             : base(options)
         {
         }
+        public DbSet<MASAIO.App.ViewModels.EnderecoViewModel> EnderecoViewModel { get; set; }
+        //public DbSet<MASAIO.App.ViewModels.EnderecoViewModel> EnderecoViewModel { get; set; }
     }
 }

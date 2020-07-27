@@ -34,7 +34,7 @@ namespace MASAIO.Data.Repository
                              .Where(p => p.FornecedorId == fornecedorId)
                              .ToListAsync();
 
-            return await Buscar(p => p.FornecedorId == fornecedorId);
+            //return await Buscar(p => p.FornecedorId == fornecedorId);
         }
     }
 }

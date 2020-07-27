@@ -23,4 +23,9 @@
     <ProjectReference Include="..\MASAIO.Data\MASAIO.Data.csproj" />
   </ItemGroup>
 
+
+  <ItemGroup>
+    <Folder Include="wwwroot\imagens\" />
+  </ItemGroup>
+
 </Project>
